@@ -32,7 +32,7 @@ export function SignIn() {
           <ForgotPasswordButton>
             <ForgotPasswordLabel>Esqueci minha senha</ForgotPasswordLabel>
           </ForgotPasswordButton>
-          <Button title="Entrar" type="secondary" />
+          <Button title="ENTRAR" type="secondary" />
         </Content>
       </KeyboardAvoidingView>
     </Container>

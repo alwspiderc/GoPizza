@@ -9,6 +9,7 @@ export const Container = styled(LinearGradient).attrs(({ theme }) => ({
 }))`
   flex: 1;
   justify-content: center;
+  align-items: center;
 `;
 
 export const Content = styled.ScrollView.attrs({
@@ -32,8 +33,8 @@ export const Title = styled.Text`
   `};
 `;
 
-export const Brand =  styled.Image.attrs({
-  resizeMode: 'contain'
+export const Brand = styled.Image.attrs({
+  resizeMode: "contain",
 })`
   height: 340px;
   margin-top: 64px;
@@ -44,10 +45,11 @@ export const ForgotPasswordButton = styled.TouchableOpacity`
   align-self: flex-end;
   margin-bottom: 20px;
 `;
+
 export const ForgotPasswordLabel = styled.Text`
   font-size: 14px;
 
-  ${({theme}) => css`
+  ${({ theme }) => css`
     font-family: ${theme.FONTS.TEXT};
     color: ${theme.COLORS.TITLE};
   `};
